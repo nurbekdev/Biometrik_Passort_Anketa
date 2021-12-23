@@ -11,7 +11,7 @@ from pywebio.input import input, input_group
 
 
 def getInfo():
-    info = input_group("Fuqaro haqida ma'lumot",[
+    return input_group("Fuqaro haqida ma'lumot",[
         input('Ism', name='ism',),
         input('Familiya', name='familiya',),
         input('Otasinging ismi', name='otasi',),
@@ -23,7 +23,6 @@ def getInfo():
         input("Pasport raqami", name='pass_raqam',),
         input("Pasport berilgan sana", name='pass_sana',),
         ])
-    return info
 
 
 
